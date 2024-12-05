@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstring>
-#include "Node.h:
+#include "Node.h"
 
 using namespace std;
 
@@ -22,7 +22,7 @@ int Node::getValue(){
   return value;
 }
 
-void NODE::setNext(Node* newnext){
+void Node::setNext(Node* newnext){
   new newnext;
 }
 
