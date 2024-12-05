@@ -19,7 +19,7 @@ int main(){
   Node* head = NULL;
   add(5);
   print(head);
-  add(7)
+  add(7);
   print(head);
   add(2);
   print(head);
