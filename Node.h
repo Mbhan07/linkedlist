@@ -12,7 +12,7 @@ class Node{
   void setValue(int newvalue);
   int getValue();
   void setNext(Node* newnext);
-  Node* getNext()'
+  Node* getNext();
  private:
   int value;
   Node* next;
