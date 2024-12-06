@@ -23,7 +23,7 @@ int Node::getValue(){
 }
 
 void Node::setNext(Node* newnext){
-  new newnext;
+  next = newnext;
 }
 
 Node* Node::getNext(){
