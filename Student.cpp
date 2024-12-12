@@ -1,4 +1,4 @@
-#include <iostrean>
+#include <iostream>
 #include <cstring>
 #include "Student.h"
 
@@ -18,7 +18,7 @@ Student::Student(char* firstNameInput, char* lastNameInput, int inputid, float i
   strcpy(firstname, firstNameInput);
   strcpy(lastname, lastNameInput);
   id = inputid;
-  gpa = inputgpa
+  gpa = inputgpa;
 }
 
 
