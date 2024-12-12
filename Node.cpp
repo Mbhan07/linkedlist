@@ -4,8 +4,8 @@
 
 using namespace std;
 
-Node::Node(){
-  value = 0;
+Node::Node(Student* newStudent){
+  value = newStudent;
   next = NULL;
 }
 
@@ -14,12 +14,12 @@ Node::~Node(){
   next = NULL;
 }
 
-void Node::setValue(int newvalue){
-  value = newvalue;
+void Node::setStudent(Student *newStudent){
+  value = newStudent;
 }
 
-int Node::getValue(){
-  return value;
+char * Node::getStudent(){
+  return value->getFirstName();
 }
 
 void Node::setNext(Node* newnext){
