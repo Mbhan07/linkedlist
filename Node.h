@@ -7,14 +7,14 @@ using namespace std;
 
 class Node{
  public:
-  Node();
+  Node(Student * newStudent);
   ~Node();
-  void setValue(int newvalue);
-  int getValue();
+  void setStudent(Student* newStudent);
+  char* getStudent();
   void setNext(Node* newnext);
   Node* getNext();
  private:
-  int value;
+  Student* value;
   Node* next;
 };
 #endif
