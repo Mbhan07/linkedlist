@@ -36,7 +36,7 @@ int main(){
   cout << "Who is in the list: ";
   cout << newNode->getStudent() << endl;
 
-  Student* secondStudent =  new Student ((char*)"Anika", (char*)"Gupta", 419503, 3.2);
+  Student* secondStudent =  new Student ((char*)"Hasini", (char*)"Gadey", 420234, 7.0);
   Node * secondNode = new Node(secondStudent);
   newNode ->setNext(secondNode);
   cout << "This is who is added into the list, and conents of the list: ";
