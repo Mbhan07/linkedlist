@@ -9,7 +9,7 @@ using namespace std;
 
 
 class Student{
-  public;
+public:
   Student();
   Student(char* firstNameInput, char * lastNameInput, int inputid, float inputgpa);
   char * getFirstName();
