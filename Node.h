@@ -1,5 +1,6 @@
 #ifndef NODE_H //beginning of header guard
 #define NODE_H
+#include "Student.h"
 #include <iostream>
 #include <cstring>
 
